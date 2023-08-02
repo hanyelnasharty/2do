@@ -19,7 +19,7 @@ const Add = (props) => {
     return (
         <>
         <details id='add'>
-            <summary className='add'>Add Cars</summary>
+            <summary className='add'>Add Tasks</summary>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="title">Title: </label>
                 <input type="text" name='title' onChange={handleChange} />
